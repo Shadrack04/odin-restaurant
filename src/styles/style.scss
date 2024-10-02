@@ -41,6 +41,7 @@ header {
     border-radius: 5px;
     transition: 0.4s ease-in-out;
     &:hover {
+      cursor: pointer;
       background: transparent;
       border: 2px solid $second-color;
       color: #431407;
