@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #fb923c;
+  width: 70%;
+  height: 40px;
+  margin: 0 auto;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
