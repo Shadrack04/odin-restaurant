@@ -1,17 +1,35 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  background-image: url(../../asset/images/wp4706561.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-origin: content-box;
 }
 
 header {
   background-color: #fb923c;
   width: 70%;
-  height: 40px;
+  height: 60px;
   margin: 0 auto;
 }
 header nav {
+  height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+}
+header button {
+  all: unset;
+  padding: 10px 20px;
+  margin: 5px;
+  color: #fff7ed;
+  background-color: #431407;
+  border-radius: 5px;
+  transition: 0.4s ease-in-out;
+}
+header button:hover {
+  background: transparent;
+  border: 2px solid #431407;
+  color: #431407;
 }/*# sourceMappingURL=style.css.map */
