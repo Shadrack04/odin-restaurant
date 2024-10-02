@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(../../asset/images/wp4706561.webp);
   background-repeat: no-repeat;
@@ -32,4 +38,45 @@ header button:hover {
   background: transparent;
   border: 2px solid #431407;
   color: #431407;
+}
+
+main {
+  background-color: #fb923c;
+  width: 70%;
+  height: 700px;
+  margin: 10px auto;
+  padding: 20px;
+}
+main .content {
+  width: 100%;
+  height: 100%;
+}
+main .content .page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #431407;
+  width: 50%;
+  height: 50px;
+  margin: 10px auto;
+  padding: 10px;
+  color: #fff7ed;
+  border-radius: 5px;
+}
+main .content .reviews {
+  width: 70%;
+  margin: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+main .content .reviews .review {
+  background-color: #431407;
+  width: 70%;
+  max-height: 500px;
+  border: 1px solid red;
+  margin: 20px auto;
+  padding: 20px;
+  line-height: 1.5;
+  box-shadow: 2px 4px black;
+  color: #fff7ed;
 }/*# sourceMappingURL=style.css.map */
